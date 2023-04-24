@@ -1,0 +1,474 @@
+.btn1 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+  .btn1:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/*btn2 başlangıç*/
+  .btn2 {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn2:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn2:active {
+	position:relative;
+	top:1px;
+}
+/*btn2 bitiş*/
+/* 3D buton başlangıç*/
+.btn3 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 13px 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: #3d348b;
+    box-shadow: 0 5px #2c0b8e;
+    
+  }
+  .btn3:hover {
+    box-shadow: 0 3px #2c0b8e;
+    top: 1px;
+  }
+  .btn3:active {
+    box-shadow: 0 0 #2c0b8e;
+    top: 5px;
+  }
+  /* 3D buton bitiş*/
+  /* Gradient başlangıç*/
+  .btn4 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+  }
+  .btn4:hover {
+    background-position: right center;
+  }
+  .btn4:active {
+    top: 2px;
+  }
+
+  /* Gradient bitiş*/
+
+  /* Gradient başlangıç*/
+
+  .btn5 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  .btn5:hover:after {
+    top: 0;
+    left: 0;
+  }
+  .btn5:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #80ed99;
+    border-radius: 10px;
+  }
+  /* Gradient bitiş*/
+
+  /* btn5 sliding effect başlangıç*/
+  .btn6{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #2c0b8e;
+   z-index: 1;
+  }
+  .btn6:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .btn6:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #3d348b;
+    right: 0;
+  }
+  .btn6:active {
+    top: 2px;
+  }
+  /* btn5 sliding effect bitiş*/
+  /* Transition on hover - fully rounded başlangıç  btn7 */
+
+  .btn7 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+  }
+  .btn7:hover {
+    background: #fff;
+    color: #2c0b8e
+  }
+
+  /* Transition on hover - fully rounded bitiş */
+
+  /* Sliding effect (left to right) button8 başlangıç */ 
+
+  .btn8 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #2c0b8e;
+    color: #2c0b8e;
+  }
+  .btn8:hover {
+    color: #fff;
+  }
+  .btn8:hover:after {
+    width: 100%;
+  }
+  .btn8:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #2c0b8e;
+  }
+  /* Sliding effect (left to right) button8 bitiş */ 
+
+  /* Sliding effect (top to bottom ) button9 başlangıç */ 
+  .btn9 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #2c0b8e;
+    color: #2c0b8e;
+  }
+  .btn9:hover {
+    color: #fff;
+  }
+  .btn9:hover:after {
+    height: 100%;
+  }
+  .btn9:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #2c0b8e;
+  }
+  /* Sliding effect (top to bottom ) button9 bitiş */ 
+
+  /* with arrow on hover başlangıç button10*/
+
+  .btn10{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d348b
+  }
+  .btn10:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  .btn10:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .btn10:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  /* with arrow on hover button 10 bitiş*/
+/* button11 başlangıç*/
+
+.btn11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 3px solid #9c1443;
+    transition: 0.3s;
+    background-color: #e91e63;
+  }
+  
+  .btn11:hover {
+    transform: scale(1.05);
+  }
+/* button11 bitiş*/
+
+/* button12 başlangıç*/
+
+.btn12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 3px solid #5e227c;
+    transition: 0.3s;
+    transform: skew(-20deg);
+    background-color: #a336db;
+  }
+  
+  .btn12:hover {
+    transform: none;
+  }
+/* button12 bitiş*/
+/* button13 başlangıç*/
+.btn13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #144cff;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  
+  .btn13::before, .btn13::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #144CFF;
+    transition: .3s;
+  }
+  
+  .btn13::before {
+    top: 0;
+  }
+  
+  .btn13::after {
+    bottom: 0;
+  }
+  
+  .btn13:hover::before {
+    transform: translateX(-100%);
+  }
+  
+  .btn13:hover::after {
+    transform: translateX(100%);
+  }
+/* button13 bitiş*/
+/* buton14 başlangıç*/
+.btn14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #01c51c;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    border-top: 1px solid #01c51c;
+    border-right: 1px solid #01c51c;
+    border-left: 20px solid #01c51c;
+    border-bottom: 1px solid #01c51c;
+    transition: 0.3s;
+  }
+  
+  .btn14:hover {
+    border-left-width: 1px;
+  }
+
+/* buton14 bitiş*/
+/* buton15 başlangıç*/
+.btn15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #07b92a;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #07b92a;
+    position: relative;
+    transition: 0.3s;
+    background-color: #ffffff;
+  }
+  
+  .btn15::before {
+    content: "FREE";
+    display: block;
+    font-size: 13px;
+    background-color: #07B92A;
+    color: #fff;
+    border-radius: 3px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-5px, -30%);
+    transition: .3s;
+  }
+  
+  .btn15:hover::before {
+    transform: translate(-5px, -50%);
+  }
+/* buton15 bitiş*/
